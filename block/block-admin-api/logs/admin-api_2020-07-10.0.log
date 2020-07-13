@@ -1,0 +1,29 @@
+2020-7-10 15:35:27 [main] INFO [BlockAdminApiApplication]:55 Starting BlockAdminApiApplication on LAPTOP-R7JJE2SO with PID 15896 (D:\javaPro\workspaceforidea\block\block-admin-api\target\classes started by 86135 in D:\javaPro\workspaceforidea\block)
+2020-7-10 15:35:27 [main] INFO [BlockAdminApiApplication]:651 No active profile set, falling back to default profiles: default
+2020-7-10 15:35:27 [main] INFO [RepositoryConfigurationDelegate]:127 Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-7-10 15:35:27 [main] INFO [RepositoryConfigurationDelegate]:187 Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-7-10 15:35:27 [main] INFO [TomcatWebServer]:108 Tomcat initialized with port(s): 9002 (http)
+2020-7-10 15:35:27 [main] INFO [Http11NioProtocol]:173 Initializing ProtocolHandler ["http-nio-9002"]
+2020-7-10 15:35:27 [main] INFO [StandardService]:173 Starting service [Tomcat]
+2020-7-10 15:35:27 [main] INFO [StandardEngine]:173 Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-7-10 15:35:28 [main] INFO [[/]]:173 Initializing Spring embedded WebApplicationContext
+2020-7-10 15:35:28 [main] INFO [ServletWebServerApplicationContext]:285 Root WebApplicationContext: initialization completed in 992 ms
+2020-7-10 15:35:28 [main] INFO [ThreadPoolTaskExecutor]:181 Initializing ExecutorService 'applicationTaskExecutor'
+2020-7-10 15:35:28 [main] INFO [HikariDataSource]:110 HikariPool-1 - Starting...
+2020-7-10 15:35:28 [main] INFO [HikariDataSource]:123 HikariPool-1 - Start completed.
+2020-7-10 15:35:28 [task-1] INFO [LogHelper]:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-7-10 15:35:28 [task-1] INFO [Version]:44 HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-7-10 15:35:28 [task-1] INFO [Version]:49 HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-7-10 15:35:29 [task-1] INFO [Dialect]:172 HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-7-10 15:35:29 [main] INFO [UserDetailsServiceAutoConfiguration]:86 
+
+Using generated security password: 362b2806-8ed9-4a34-b5a4-de3ee719ea36
+
+2020-7-10 15:35:29 [main] INFO [DefaultSecurityFilterChain]:43 Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17dd671f, org.springframework.security.web.context.SecurityContextPersistenceFilter@671c4166, org.springframework.security.web.header.HeaderWriterFilter@67064bdc, org.springframework.security.web.csrf.CsrfFilter@512575e9, org.springframework.security.web.authentication.logout.LogoutFilter@3af7d855, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68ac9ec5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@53c6f96d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3bbf6abe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5c441290, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77865933, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e49ce2b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9679750, org.springframework.security.web.session.SessionManagementFilter@18578491, org.springframework.security.web.access.ExceptionTranslationFilter@4bc33720, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f4a3a8d]
+2020-7-10 15:35:29 [task-1] INFO [JtaPlatformInitiator]:52 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-7-10 15:35:29 [task-1] INFO [LocalContainerEntityManagerFactoryBean]:416 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-7-10 15:35:29 [main] INFO [Http11NioProtocol]:173 Starting ProtocolHandler ["http-nio-9002"]
+2020-7-10 15:35:29 [main] INFO [TomcatWebServer]:220 Tomcat started on port(s): 9002 (http) with context path ''
+2020-7-10 15:35:29 [main] INFO [DeferredRepositoryInitializationListener]:49 Triggering deferred initialization of Spring Data repositories…
+2020-7-10 15:35:29 [main] INFO [DeferredRepositoryInitializationListener]:53 Spring Data repositories initialized!
+2020-7-10 15:35:29 [main] INFO [BlockAdminApiApplication]:61 Started BlockAdminApiApplication in 2.544 seconds (JVM running for 4.238)
